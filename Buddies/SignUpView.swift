@@ -28,9 +28,15 @@ class SignUpView: UIViewController {
     func fieldsFilled() -> Bool {
         if (firstNameField.text == "" || lastNameField.text ==  "" || emailField.text == "" || usernameField.text == "" || passwordField.text == "" || confirmpassField.text == "") {
             return false;
-        } else{
+        }
+        return true;
+    }
+    
+    func passMatch() -> Bool {
+        if (passwordField.text == confirmpassField.text && passwordField.text != "") {
             return true;
         }
+        return false;
     }
     
     @IBAction func nextPressed(_ sender: Any) {
@@ -40,11 +46,17 @@ class SignUpView: UIViewController {
             alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
             self.present(alertController, animated: true, completion: nil)
         }
+        else if (passMatch() != true) {
+            let alertController = UIAlertController(title: "Buddies", message:
+                "Passwords do not match", preferredStyle: .alert)
+            alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+            self.present(alertController, animated: true, completion: nil)
+        }
     }
     
 
     /*
-    // MARK: - Navigation
+    // MARK: - Navigation≈
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
