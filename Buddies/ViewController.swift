@@ -33,10 +33,13 @@ class ViewController: UIViewController {
             Auth.auth().signIn(withEmail: email, password: password) { [weak self] user, error in
                 guard let strongSelf = self else { return }
                 if error != nil {
-                    Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
-                        strongSelf.performSegue(withIdentifier: "toSignUp", sender: nil)
+                    if let error = error as NSError? {
+                        strongSelf.handleAuthErrors(error: error)
                     }
-                    
+//                    Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
+//                        strongSelf.performSegue(withIdentifier: "toSignUp", sender: nil)
+//                    }
+//                    strongSelf.performSegue(withIdentifier: "toSignUp", sender: nil)
                 } else {
                     if let UserID = Auth.auth().currentUser?.uid {
                         KeychainWrapper.standard.set(UserID, forKey: "KEY_UID")
@@ -52,7 +55,31 @@ class ViewController: UIViewController {
         
     }
     
+    func handleAuthErrors(error: NSError) {
+        if let errorCode = AuthErrorCode(rawValue: error.code){
+            switch (errorCode) {
+                case .wrongPassword:
+                    errMsg(msg: "Wrong Password")
+                    break
+                case .invalidEmail:
+                    errMsg(msg: "Please Enter a Valid Email")
+                    break
+                case .userNotFound:
+                    self.performSegue(withIdentifier: "toSignUp", sender: nil)
+                    break
+                default:
+                    errMsg(msg: "An Error Occured")
+            }
+        }
+        
+    }
     
+    func errMsg(msg: String) {
+        let alertController = UIAlertController(title: "Buddies", message:
+            msg, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Dismiss", style: .default))
+        self.present(alertController, animated: true, completion: nil)
+    }
     
 }
 

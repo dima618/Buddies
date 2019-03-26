@@ -54,6 +54,9 @@ class SignUpView: UIViewController {
         }
     }
     
+    @IBAction func backPressed(_sender: Any) {
+        self.performSegue(withIdentifier: "toLogin", sender: nil)
+    }
 
     /*
     // MARK: - Navigation≈

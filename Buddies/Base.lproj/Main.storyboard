@@ -82,6 +82,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="zmV-dr-ujq"/>
                     <connections>
                         <outlet property="emailField" destination="KTg-fN-Iu9" id="5YA-10-Nha"/>
                         <outlet property="passwordField" destination="GqP-72-9eo" id="0na-G4-fmx"/>
@@ -174,14 +175,30 @@
                                     <action selector="nextPressed:" destination="etL-J5-TDP" eventType="touchUpInside" id="7iF-nO-O8v"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lX8-7T-BxU">
+                                <rect key="frame" x="137.5" y="539.5" width="100" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="kFA-1b-GQV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.079339519720000001" green="0.82614151550000003" blue="0.7566354797" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPressedWith_sender:" destination="etL-J5-TDP" eventType="touchUpInside" id="z8f-08-MRw"/>
+                                    <action selector="nextPressed:" destination="etL-J5-TDP" eventType="touchUpInside" id="cUZ-td-cQ9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ou6-yY-8pW" firstAttribute="centerX" secondItem="GUW-jU-rG4" secondAttribute="centerX" id="0Cq-R5-3yy"/>
                             <constraint firstItem="mE2-L7-O2y" firstAttribute="top" secondItem="nGw-TZ-zdn" secondAttribute="bottom" constant="50" id="1Mo-Aq-sZ5"/>
+                            <constraint firstItem="lX8-7T-BxU" firstAttribute="top" secondItem="mE2-L7-O2y" secondAttribute="bottom" constant="5" id="9P9-bO-EAj"/>
                             <constraint firstItem="nGw-TZ-zdn" firstAttribute="top" secondItem="wGp-hZ-asf" secondAttribute="bottom" constant="20" id="BMi-8n-FHd"/>
                             <constraint firstItem="JRM-q9-bZ2" firstAttribute="centerX" secondItem="GUW-jU-rG4" secondAttribute="centerX" id="EuV-sh-haM"/>
                             <constraint firstItem="ou6-yY-8pW" firstAttribute="top" secondItem="wrZ-ZK-eBp" secondAttribute="bottom" constant="50" id="GQX-yK-dm0"/>
+                            <constraint firstItem="lX8-7T-BxU" firstAttribute="centerX" secondItem="GUW-jU-rG4" secondAttribute="centerX" id="Iak-rF-cZh"/>
                             <constraint firstItem="wGp-hZ-asf" firstAttribute="centerX" secondItem="GUW-jU-rG4" secondAttribute="centerX" id="MUJ-Ud-9YB"/>
                             <constraint firstItem="wGp-hZ-asf" firstAttribute="top" secondItem="UYR-aE-w27" secondAttribute="bottom" constant="20" id="PBp-cx-1jt"/>
                             <constraint firstItem="UYR-aE-w27" firstAttribute="centerX" secondItem="GUW-jU-rG4" secondAttribute="centerX" id="YaH-F1-IIE"/>
@@ -255,7 +272,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="etL-J5-TDP" kind="relationship" relationship="rootViewController" id="3Nq-ci-kfc"/>
+                        <segue destination="etL-J5-TDP" kind="relationship" relationship="rootViewController" id="96h-yz-NB9"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SF2-VT-ROW" userLabel="First Responder" sceneMemberID="firstResponder"/>
