@@ -6,6 +6,10 @@
 //  Copyright © 2019 Dima Ilin. All rights reserved.
 //
 
+//IMPORTANT IMPLEMENTATIONS:
+//Enable Sorting by location, age, gender, have good location accuracy, Find a way to make people give more info about themselves.
+//Allow to see find people in a location you are going to. Tag these people as "going" and have an option to filter them out.
+
 import UIKit
 import CoreData
 import Firebase

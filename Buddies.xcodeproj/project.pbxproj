@@ -8,7 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3216CB1CE8CA0857D00E11D1 /* Pods_BuddiesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170A0333D5869466D918A160 /* Pods_BuddiesTests.framework */; };
-		CEFD260622485DF2002E4394 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD260522485DF2002E4394 /* SignUpView.swift */; };
+		CE0076EE2256B1D900637B9F /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0076ED2256B1D900637B9F /* ImagePicker.swift */; };
+		CE0388102249EE99008F0BF8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE03880F2249EE99008F0BF8 /* GoogleService-Info.plist */; };
+		CE27687C224DCE970068D409 /* CollapseKeyboardOnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE27687B224DCE970068D409 /* CollapseKeyboardOnTap.swift */; };
+		CE5BE5B82250690C00A9EF7B /* LocationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BE5B42250690B00A9EF7B /* LocationInfoView.swift */; };
+		CE5BE5B92250690C00A9EF7B /* SignUpInterests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BE5B52250690B00A9EF7B /* SignUpInterests.swift */; };
+		CE5BE5BA2250690C00A9EF7B /* SignUpMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BE5B62250690C00A9EF7B /* SignUpMapView.swift */; };
+		CE5BE5BB2250690C00A9EF7B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BE5B72250690C00A9EF7B /* SignUpView.swift */; };
+		CEA8A061226E108D00CE056B /* SnappingCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA8A060226E108D00CE056B /* SnappingCollectionViewLayout.swift */; };
+		CEADFA97226BA1B600DDA119 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADFA96226BA1B600DDA119 /* FeedView.swift */; };
+		CEADFA9B226BA1F800DDA119 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADFA99226BA1F800DDA119 /* Cell.swift */; };
+		CEADFA9C226BA1F800DDA119 /* Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEADFA9A226BA1F800DDA119 /* Cell.xib */; };
+		CECFE99F225316A2005ECD7A /* SignUpImageUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECFE99E225316A2005ECD7A /* SignUpImageUpload.swift */; };
 		CEFD58D62246022A007E647B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD58D52246022A007E647B /* AppDelegate.swift */; };
 		CEFD58D82246022A007E647B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD58D72246022A007E647B /* ViewController.swift */; };
 		CEFD58DB2246022A007E647B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFD58D92246022A007E647B /* Main.storyboard */; };
@@ -17,7 +28,6 @@
 		CEFD58E32246022B007E647B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFD58E12246022B007E647B /* LaunchScreen.storyboard */; };
 		CEFD58EE2246022C007E647B /* BuddiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD58ED2246022C007E647B /* BuddiesTests.swift */; };
 		CEFD58F92246022C007E647B /* BuddiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFD58F82246022C007E647B /* BuddiesUITests.swift */; };
-		CEFD5907224602E7007E647B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFD5906224602E7007E647B /* GoogleService-Info.plist */; };
 		DF92519C049D53297FF6A790 /* Pods_Buddies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D649A9F8BEF121528592DB49 /* Pods_Buddies.framework */; };
 		F3D4BE5BC7C8A83A259BD7C0 /* Pods_BuddiesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 498292CEAA4A8A00C84D4221 /* Pods_BuddiesUITests.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +56,18 @@
 		525B02C5773884E226E02212 /* Pods-Buddies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buddies.release.xcconfig"; path = "Target Support Files/Pods-Buddies/Pods-Buddies.release.xcconfig"; sourceTree = "<group>"; };
 		75589EB26D8494E92E37941E /* Pods-BuddiesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddiesTests.debug.xcconfig"; path = "Target Support Files/Pods-BuddiesTests/Pods-BuddiesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBC2B7498C4BD35DB42A3D5D /* Pods-BuddiesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddiesUITests.debug.xcconfig"; path = "Target Support Files/Pods-BuddiesUITests/Pods-BuddiesUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		CEFD260522485DF2002E4394 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CE0076ED2256B1D900637B9F /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		CE03880F2249EE99008F0BF8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE27687B224DCE970068D409 /* CollapseKeyboardOnTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapseKeyboardOnTap.swift; sourceTree = "<group>"; };
+		CE5BE5B42250690B00A9EF7B /* LocationInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationInfoView.swift; sourceTree = "<group>"; };
+		CE5BE5B52250690B00A9EF7B /* SignUpInterests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpInterests.swift; sourceTree = "<group>"; };
+		CE5BE5B62250690C00A9EF7B /* SignUpMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpMapView.swift; sourceTree = "<group>"; };
+		CE5BE5B72250690C00A9EF7B /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		CEA8A060226E108D00CE056B /* SnappingCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnappingCollectionViewLayout.swift; sourceTree = "<group>"; };
+		CEADFA96226BA1B600DDA119 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		CEADFA99226BA1F800DDA119 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		CEADFA9A226BA1F800DDA119 /* Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cell.xib; sourceTree = "<group>"; };
+		CECFE99E225316A2005ECD7A /* SignUpImageUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpImageUpload.swift; sourceTree = "<group>"; };
 		CEFD58D22246022A007E647B /* Buddies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Buddies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD58D52246022A007E647B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEFD58D72246022A007E647B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,7 +82,6 @@
 		CEFD58F42246022C007E647B /* BuddiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuddiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFD58F82246022C007E647B /* BuddiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuddiesUITests.swift; sourceTree = "<group>"; };
 		CEFD58FA2246022C007E647B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEFD5906224602E7007E647B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D649A9F8BEF121528592DB49 /* Pods_Buddies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Buddies.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA0B75E82F76ECEBD592C8C5 /* Pods-BuddiesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BuddiesUITests.release.xcconfig"; path = "Target Support Files/Pods-BuddiesUITests/Pods-BuddiesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DAE386EAF2AAC5F0A97E0645 /* Pods-Buddies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Buddies.debug.xcconfig"; path = "Target Support Files/Pods-Buddies/Pods-Buddies.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +138,45 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CE129BA32255A3B900D955C8 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEFD58D72246022A007E647B /* ViewController.swift */,
+				CEADFA96226BA1B600DDA119 /* FeedView.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		CE5BE5BC2250692200A9EF7B /* Signup Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE5BE5B42250690B00A9EF7B /* LocationInfoView.swift */,
+				CE5BE5B52250690B00A9EF7B /* SignUpInterests.swift */,
+				CE5BE5B62250690C00A9EF7B /* SignUpMapView.swift */,
+				CE5BE5B72250690C00A9EF7B /* SignUpView.swift */,
+				CECFE99E225316A2005ECD7A /* SignUpImageUpload.swift */,
+			);
+			path = "Signup Views";
+			sourceTree = "<group>";
+		};
+		CEA8A05F226E102200CE056B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CE27687B224DCE970068D409 /* CollapseKeyboardOnTap.swift */,
+				CEA8A060226E108D00CE056B /* SnappingCollectionViewLayout.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CEADFA98226BA1D100DDA119 /* ItemCell */ = {
+			isa = PBXGroup;
+			children = (
+				CEADFA99226BA1F800DDA119 /* Cell.swift */,
+				CEADFA9A226BA1F800DDA119 /* Cell.xib */,
+			);
+			path = ItemCell;
+			sourceTree = "<group>";
+		};
 		CEFD58C92246022A007E647B = {
 			isa = PBXGroup;
 			children = (
@@ -143,15 +202,18 @@
 		CEFD58D42246022A007E647B /* Buddies */ = {
 			isa = PBXGroup;
 			children = (
+				CEA8A05F226E102200CE056B /* Helper */,
+				CEADFA98226BA1D100DDA119 /* ItemCell */,
+				CE129BA32255A3B900D955C8 /* Main Views */,
 				CEFD58D52246022A007E647B /* AppDelegate.swift */,
-				CEFD58D72246022A007E647B /* ViewController.swift */,
-				CEFD260522485DF2002E4394 /* SignUpView.swift */,
+				CE5BE5BC2250692200A9EF7B /* Signup Views */,
 				CEFD58D92246022A007E647B /* Main.storyboard */,
 				CEFD58DF2246022B007E647B /* Assets.xcassets */,
 				CEFD58E12246022B007E647B /* LaunchScreen.storyboard */,
+				CE03880F2249EE99008F0BF8 /* GoogleService-Info.plist */,
 				CEFD58E42246022B007E647B /* Info.plist */,
-				CEFD5906224602E7007E647B /* GoogleService-Info.plist */,
 				CEFD58DC2246022A007E647B /* Buddies.xcdatamodeld */,
+				CE0076ED2256B1D900637B9F /* ImagePicker.swift */,
 			);
 			path = Buddies;
 			sourceTree = "<group>";
@@ -283,7 +345,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEFD58E32246022B007E647B /* LaunchScreen.storyboard in Resources */,
-				CEFD5907224602E7007E647B /* GoogleService-Info.plist in Resources */,
+				CEADFA9C226BA1F800DDA119 /* Cell.xib in Resources */,
+				CE0388102249EE99008F0BF8 /* GoogleService-Info.plist in Resources */,
 				CEFD58E02246022B007E647B /* Assets.xcassets in Resources */,
 				CEFD58DB2246022A007E647B /* Main.storyboard in Resources */,
 			);
@@ -409,8 +472,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFD260622485DF2002E4394 /* SignUpView.swift in Sources */,
+				CE27687C224DCE970068D409 /* CollapseKeyboardOnTap.swift in Sources */,
+				CECFE99F225316A2005ECD7A /* SignUpImageUpload.swift in Sources */,
 				CEFD58D82246022A007E647B /* ViewController.swift in Sources */,
+				CE5BE5B82250690C00A9EF7B /* LocationInfoView.swift in Sources */,
+				CEA8A061226E108D00CE056B /* SnappingCollectionViewLayout.swift in Sources */,
+				CE5BE5B92250690C00A9EF7B /* SignUpInterests.swift in Sources */,
+				CEADFA9B226BA1F800DDA119 /* Cell.swift in Sources */,
+				CE5BE5BB2250690C00A9EF7B /* SignUpView.swift in Sources */,
+				CEADFA97226BA1B600DDA119 /* FeedView.swift in Sources */,
+				CE5BE5BA2250690C00A9EF7B /* SignUpMapView.swift in Sources */,
+				CE0076EE2256B1D900637B9F /* ImagePicker.swift in Sources */,
 				CEFD58D62246022A007E647B /* AppDelegate.swift in Sources */,
 				CEFD58DE2246022A007E647B /* Buddies.xcdatamodeld in Sources */,
 			);
@@ -589,12 +661,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG4353VS9T;
 				INFOPLIST_FILE = Buddies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Buddies;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ilin.buddies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -607,12 +680,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GG4353VS9T;
 				INFOPLIST_FILE = Buddies/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Buddies;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ilin.buddies;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

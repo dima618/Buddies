@@ -10,6 +10,7 @@ pod 'Firebase/Core'
 pod 'Firebase/Database'
 pod 'Firebase/Auth'
 pod 'SwiftKeychainWrapper'
+pod 'Firebase/Storage'
   target 'BuddiesTests' do
     inherit! :search_paths
     # Pods for testing

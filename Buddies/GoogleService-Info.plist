@@ -7,9 +7,9 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>919490175296-3nd74fs6bmatno5jh6jof49g3jqptasd.apps.googleusercontent.com</string>
+	<string>919490175296-eldajgt15alv52lneflgm51u9eduop21.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.919490175296-3nd74fs6bmatno5jh6jof49g3jqptasd</string>
+	<string>com.googleusercontent.apps.919490175296-eldajgt15alv52lneflgm51u9eduop21</string>
 	<key>API_KEY</key>
 	<string>AIzaSyBCjxdqHdnwMDNhXEz1XajVKlyjnJcweqE</string>
 	<key>GCM_SENDER_ID</key>
@@ -17,7 +17,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.Buddies</string>
+	<string>me.ilin.buddies</string>
 	<key>PROJECT_ID</key>
 	<string>buddies-21adc</string>
 	<key>STORAGE_BUCKET</key>
@@ -33,7 +33,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:919490175296:ios:2de2cb2e8b2a545a</string>
+	<string>1:919490175296:ios:a9521d5d1754eda8</string>
 	<key>DATABASE_URL</key>
 	<string>https://buddies-21adc.firebaseio.com</string>
 </dict>
